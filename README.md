@@ -22,7 +22,7 @@ demo folder contains back-end database API Java + Spring Boot project
 **Instructions on how to run:**
 
 1. Provide Google Maps API key and Map ID to getGoogleMapsAPIKey() and getGoogleMapsMapId() functions in herbseek/UtilsFunctions.js.
-2. Create a new database using the .sql file located in the root HerbSeek folder.
+2. Create a new database and seed some demo records using the datarepo_postgres_seed.sql file located in the root HerbSeek folder.
 3. Provide DB connection information (URL, username, password) in demo/application.properties.
 4. Run npm install to install the front-end dependencies.
 5. Make sure the database is online and has data seeded.
